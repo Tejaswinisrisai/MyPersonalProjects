@@ -1,0 +1,35 @@
+.text {
+
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Helvetica;
+
+}
+
+.heading {
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: 'Verdana';
+}
+
+.a {
+    text-decoration: none;
+}
+
+button {
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(27, 152, 240);
+    text-align: center;
+    text-decoration-color: aliceblue;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(244, 238, 239);
+    padding: 50px;
+    font-size: 20px;
+}

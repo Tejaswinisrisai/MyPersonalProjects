@@ -1,0 +1,532 @@
+.h1 {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 150px;
+    padding: 0;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+}
+
+a:hover {
+    border-bottom: 1px solid rgb(5, 85, 135);
+    border-width: 3px;
+}
+
+.a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.head {
+    background-color: #d0e0f0;
+    height: 50px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+}
+
+.image {
+    position: relative;
+
+}
+
+.octopus {
+    width: 1000px;
+    height: 600px;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    right: 136px;
+}
+
+.Text {
+    position: relative;
+}
+
+.sub {
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    position: absolute;
+    top: 850px;
+    right: 136px;
+}
+
+.sub1 {
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    position: absolute;
+    top: 950px;
+    right: 136px;
+    margin-top: 150px;
+}
+
+.new {
+    background-color: rgb(160, 38, 38);
+    color: white;
+    border-radius: 3px;
+    margin: 0;
+    height: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 5px;
+}
+
+.time {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.h2 {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+}
+
+.h3 {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-decoration: none;
+}
+
+.h3_1 {
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-decoration: none;
+}
+
+.h3_1:hover {
+    border-width: 0.6px;
+}
+
+.h3:hover {
+    border-width: 1px;
+}
+
+.h4 {
+    font-family: 'Koulen', cursive;
+    font-size: 1.5em;
+}
+
+.h4_1 {
+    font-family: 'Koulen', cursive;
+    font-size: 0.8em;
+}
+
+.subText1 {
+    position: relative;
+    top: 1380px;
+    width: 100%;
+}
+
+.SubHead {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.coldiv1_1 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 180px;
+}
+
+.coldiv1_2 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 430px;
+}
+
+.coldiv1_3 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 690px;
+}
+
+.coldiv2_1 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    top: 440px;
+}
+
+.coldiv2_2 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 430px;
+    top: 440px;
+}
+
+.coldiv2_3 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 690px;
+    top: 440px;
+}
+
+.coldiv3_1 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    top: 720px;
+}
+
+.coldiv3_2 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 430px;
+    top: 720px;
+}
+
+.coldiv3_3 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 690px;
+    top: 720px;
+}
+
+.coldiv4_1 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    top: 1070px;
+}
+
+.coldiv4_2 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 430px;
+    top: 1070px;
+}
+
+.coldiv4_3 {
+    width: 18%;
+    text-align: left;
+    position: absolute;
+    left: 690px;
+    top: 1070px;
+}
+
+.code {
+    text-decoration: none;
+
+}
+
+.code:hover {
+    border-width: 1px;
+}
+
+.logo {
+    width: 215px;
+    height: 60px;
+    text-decoration: none;
+
+}
+
+.logo1 {
+    width: 80px;
+    height: 70px;
+    text-decoration: none;
+
+}
+
+.logo2 {
+    width: 80px;
+    height: 75px;
+    text-decoration: none;
+
+}
+
+.logos:hover {
+    border-bottom-width: 0px;
+}
+
+
+.side_div {
+    position: relative;
+    left: 940px;
+    width: 20%;
+    padding-bottom: 600px;
+}
+
+.side_text {
+
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+
+    font-size: 0.9em;
+}
+
+.side_text:hover {
+    border-width: 0px;
+    text-decoration: none;
+}
+
+.sub_div {
+    width: 230px;
+    font-size: 0.91em;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+    margin: 40px 0;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: darkgrey;
+}
+
+.Gist {
+    position: relative;
+    top: 1420px;
+    left: 150px;
+    width: 75%;
+    background-color: #f0edea;
+    border: 1px;
+    border-color: rgb(127, 126, 125);
+    border-radius: 5px;
+    padding: 5px 0;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    color: rgb(116, 113, 113);
+}
+
+.gist {
+    text-decoration: none;
+}
+
+.gist:hover {
+    border-bottom-width: 0px;
+    color: rgb(137, 137, 190);
+}
+
+.footer {
+    position: relative;
+    top: 1500px;
+    background-color: #ededed;
+    margin: 0px;
+    padding-bottom: 340px;
+    width: 100%;
+}
+
+span {
+    display: inline-block;
+}
+
+.nav1 {
+    position: absolute;
+    display: inline-block;
+    padding: 20px 0 43px 10px;
+    margin: 0px;
+    background-color: rgb(207, 205, 205);
+    width: 60%;
+    right: 505px;
+
+}
+
+.nav2 {
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    background-color: rgb(207, 205, 205);
+    width: 40%;
+    padding-bottom: 20px;
+}
+
+.n1 {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 1em;
+}
+
+.n1:hover {
+    border-bottom-width: 0px;
+    color: rgb(103, 121, 132);
+}
+
+.n2 {
+    margin: 0 3px;
+    text-decoration: none;
+    color: black;
+    font-weight: 1em;
+}
+
+.n2:hover {
+    border-bottom-width: 0px;
+    color: rgb(103, 121, 132);
+}
+
+.websites {
+    position: relative;
+    top: 80px;
+    height: 110px;
+    background-color: #adaaaa2f;
+    padding-bottom: 50px;
+}
+
+.book:hover {
+    background-color: rgba(209, 207, 206, 0.235);
+}
+
+.event:hover {
+    background-color: rgba(209, 207, 206, 0.235);
+}
+
+.book {
+    position: absolute;
+    width: 30%;
+    left: 100px;
+    text-align: left;
+    border-bottom-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    padding: 15px;
+    bottom: 20px
+}
+
+.event {
+    position: absolute;
+    width: 30%;
+    right: 100px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    padding: 15px;
+    bottom: 20px;
+}
+
+.float {
+    padding: 7px 0;
+    float: right;
+    text-decoration: none;
+    width: 60%;
+    text-align: left;
+    margin: 0;
+    color: rgb(52, 51, 51);
+}
+
+.float:hover {
+    border-bottom-width: 0px;
+}
+
+.float1 {
+    padding-top: 5px;
+    float: right;
+    text-decoration: none;
+    width: 60%;
+    text-align: left;
+    margin: 0;
+    color: rgb(29, 76, 177);
+    font-weight: bold;
+    position: absolute;
+    top: 64px;
+    left: 166px;
+}
+
+.float1:hover {
+    border-bottom-width: 0px;
+}
+
+.Image {
+    padding-top: 10px;
+
+}
+
+.Image:hover {
+    border-bottom-width: 0px;
+}
+
+.bottom {
+    background-color: rgb(207, 205, 205);
+    position: absolute;
+    bottom: 173px;
+    line-height: none;
+    padding-right: 773px;
+    font-family: 'Roboto', sans-serif;
+    left: 0px;
+}
+
+.p {
+    width: 100%;
+    margin-left: 80px;
+    font-size: 0.9em;
+}
+
+.hosts {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0px;
+    color: black;
+    font-size: 0.9em;
+}
+
+.hosts:hover {
+    border-bottom-width: 0px;
+    color: rgb(119, 114, 114);
+}
+
+.Policies {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.Policies:hover {
+    border-bottom-width: 0px;
+    color: rgb(119, 114, 114);
+}
+
+.end {
+    font-family: 'Taviraj', serif;
+    font-size: 4em;
+    width: 1180px;
+    position: absolute;
+    top: 56px;
+    text-align: center;
+    font-weight: 900;
+    padding-left: 35px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Get Index Array Program</h1>
+        <div class="mb-3">
+            <label for="lengthOfArray" class="form-label">Length of the Array</label>
+            <input type="email" class="form-control" id="lengthOfArray" placeholder="Length of the Array">
+        </div>
+        <div class="mb-3">
+            <label for="ArrayElements" class="form-label">Enter Array of Elements</label>
+            <input type="email" class="form-control" id="ArrayElements"
+                placeholder="Enter Array of Elements seperated with comma">
+        </div>
+        <div class="mb-3">
+            <label for="sumValue" class="form-label">Sum</label>
+            <input type="email" class="form-control" id="sumValue" placeholder="Sum">
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="execute()">Check Result</button>
+        <div class="card mt-3">
+            <div class="card-body">
+                <p>Index pair that equates the sum value</p>
+                <h2 class="h2" id="result"></h2>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- <input type="text" name="Length" id="Length" placeholder="Enter Length of the Array">
+    <input type="text" name="Array" id="Array" placeholder="Enter the Array">
+    <input type="text" name="Sum" id="Sum" placeholder="Enter Sum"> -->
+    <script>
+        function execute() {
+            let n = document.getElementById("lengthOfArray").value;//4
+            var tempN = 0;
+            for (let j = 0; j < n.length; j++) {
+                if (n[j] >= "a" && n[j] <= "z" || n[j] >= "A" && n[j] <= "Z") {
+                    n = false;
+                    break;
+                }
+                else {
+                    tempN = (tempN * 10) + parseInt(n[j])
+                }
+                console.log(tempN)
+            }
+            n = tempN;
+            let sum = document.getElementById("sumValue").value;//3
+            var tempSum = 0;
+            for (let j = 0; j < sum.length; j++) {
+                if (sum[j] >= "a" && sum[j] <= "z" || sum[j] >= "A" && sum[j] <= "Z") {
+                    sum = false;
+                    break;
+                }
+                else {
+                    tempSum = (tempSum * 10) + parseInt(sum[j])
+                }
+                console.log(tempSum)
+
+            }
+            sum = tempSum;
+
+            let arr = [];
+            var arrBool;
+            var res;
+            var y = false;
+            temp = document.getElementById("ArrayElements").value;//1,2
+            for (let i of temp.split(",")) {//1,2,3,4,5,9 -> ["1","2","3","4","5","9"] -> 1P -> 2P
+                if (parseInt(i) >= 0 || parseInt(i) <= 9) {
+                    arr.push(parseInt(i))
+                }
+                else {
+                    arrBool = true;
+                }
+            }
+            if (n == false || sum == false || arrBool == true) {
+                res = "Babu, all Input fields accepts only numbers"
+                document.getElementById("result").innerHTML = res;
+            }
+            else {
+                for (let i = 0; i < n; i++) {
+                    for (let j = 0; j < n; j++) {
+                        if (n != arr.length) {
+                            res = "Enter no of elements, as per the declared length value"
+                            document.getElementById("result").innerHTML = res;
+                        }
+                        else if (arr.length <= 1) {
+                            res = "Enter atleast 2 elements as an array"
+                            document.getElementById("result").innerHTML = res
+                        }
+                        else if (arr[i] == arr[j]) {
+                            continue
+                        }
+                        else if (sum == (arr[i] + arr[j])) {
+                            console.log(`i=${i} j=${j}`)
+                            res = [i, j];
+                            document.getElementById("result").innerHTML = res;
+                            y = true;
+                        }
+                        else if (sum != (arr[i] + arr[j])) {
+                            res = "Not found any indexes that matches the sum"
+                            document.getElementById("result").innerHTML = res;
+                        }
+
+                    }
+                    if (y == true)
+                        break;
+                }
+            }
+            // document.getElementById("result").innerHTML = res
+        }
+    </script>
+</body>
+
+</html>
