@@ -1,0 +1,73 @@
+body{
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-weight: 700;
+overflow-x: hidden;
+
+}
+#sec1{
+    display: inline;
+}
+#ticket{
+    width:50%;border: 1px solid green;display: flex;margin: auto;
+    box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 200px;
+}
+.container{
+    justify-content: center;
+}
+#sec1{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    display: flex;
+}
+#sec2{
+    border-right: 1px dashed grey;
+    background: rgb(225, 231, 226);
+    background-repeat: no-repeat;
+  background-size: 380px 198px;
+  /* opacity:0.5 ;    */
+}
+#mainText{
+    padding: 15px;
+    font-size: 20px;
+    line-height: 9px;
+    font-weight: 700;
+    background: rgba(225, 231, 226, 0.1);
+}
+#sec3{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:40px;
+display: flex;
+justify-content: center;
+background-color: white;
+}
+p{
+    /* text-shadow: 2px 2px white; */
+    /* text-shadow: 1px 1px 4px white;
+    color: black; */
+    text-shadow: 1px 2px 14px black;
+    color: white;
+}
+input, select, .cg{
+    background: transparent;
+    border: none;
+    color: aqua ;
+}
+.cg{
+    color: white;
+    font-weight: 600;
+}
+option{
+    background-color: black;
+}
